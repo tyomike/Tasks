@@ -8,4 +8,5 @@ function addPrefix($array, $prefix)
     }
     return $result;
 }
+
 ?>
