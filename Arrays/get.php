@@ -7,4 +7,5 @@ function get($array, $index, $default = null)
     }
     else return $default;
 }
+
 ?>

@@ -13,4 +13,5 @@ function isContinuousSequence ($array)
     }
     return false;
 }
+
 ?>

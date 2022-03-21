@@ -13,4 +13,5 @@ function getIntersectionOfSortedArray ($firstArray, $secondArray)
         }
     }
 }
+
 ?>

@@ -11,4 +11,5 @@ function swap($array, $index)
     $array[$index - 1] = $buf;
     return $array;
 }
+
 ?>
