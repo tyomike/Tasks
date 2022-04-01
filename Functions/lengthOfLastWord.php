@@ -1,11 +1,10 @@
 <?php
-function lengthOfLastWord ($string)
+function lengthOfLastWord(string $string): string
 {
     $string = trim($string);
     $array = explode(' ', $string);
     $lastWord = end($array);//последний эл-т массива
     $result = strlen($lastWord);
-//        print_r($array);
     return $result;
 }
 
