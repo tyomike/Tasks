@@ -1,11 +1,11 @@
 <?php
-function get($array, $index, $default = null)
+function get($array, $index, $default = null): ?string
 {
-    if ($index < count($array))
-    {
-        return $array[$index];
+    if (empty($array)) {
+        return null;
     }
-    else return $default;
+        if ($index < count($array)) {
+            return $array[$index];
+        } else return $default;
 }
-
 ?>

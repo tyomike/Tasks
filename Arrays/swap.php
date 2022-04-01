@@ -1,8 +1,7 @@
 <?php
-function swap($array, $index)
+function swap(array $array,int $index): array
 {
-    if ($index == 0 || $index == array_key_last($array))
-    {
+    if ($index == 0 || $index == array_key_last($array)) {
         return $array;
     }
     //Меняем местами предыдущий и следующий эл-ты, относительно текущего в массиве с помощью промежуточной переменной
