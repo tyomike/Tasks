@@ -1,5 +1,5 @@
 <?php
-function findIndexOfNearest(array $array, int $num): int
+function findIndexOfNearest(array $array, int $num): ?int
 {
     if (empty($array)) {
         return null;

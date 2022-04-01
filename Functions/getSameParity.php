@@ -6,6 +6,7 @@ function getSameParity(array $array): array
     if (empty($array)) {
         return $array;
     }
+
     if ($array[0] % 2 == 0) {
         foreach ($array as $value) {
             if ($value % 2 == 0) {

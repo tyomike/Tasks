@@ -1,5 +1,5 @@
 <?php
-function lengthOfLastWord(string $string): string
+function lengthOfLastWord(string $string): int
 {
     $string = trim($string);
     $array = explode(' ', $string);
